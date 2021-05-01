@@ -2,7 +2,7 @@
 
 * Códigos em C# são organizados por sentenças de códigos 
   * Uma sentença de código é finalizada com **;**
-  * pode estar em mais de uma linha
+  * e pode estar em mais de uma linha
  
 * Pares de chaves **{ }**
   * chaves de abertura e de fechamento
@@ -23,6 +23,10 @@ namespace CursoCSharp
         static void Main(string[] args) 
         {
             Console.WriteLine("Hello World!");
+
+            {
+                Console.WriteLine("Hello World!");
+            }
         }
     }
 }
@@ -31,5 +35,6 @@ namespace CursoCSharp
 ## Executando o código criado
 
 * Clicando no botão **Play** da IDE (modo Debug)
-* Tecla **`F5`** (modo Debug)
+  * Tecla **`F5`** (modo Debug)
+  
 * **`CTRL`** + **`F5`** - Mantém o terminal aberto apresentando a saída do código, até que seja precionada uma tecla para fechá-lo.
