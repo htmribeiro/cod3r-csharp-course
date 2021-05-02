@@ -1,9 +1,7 @@
 ﻿using System;
 
-namespace CursoCSharp.Fundamentos
-{
-    class PrimeiroPrograma
-    {
+namespace CursoCSharp.Fundamentos {
+    class PrimeiroPrograma {
         static void Main()
         {
             Console.Write("Primeiro ");
