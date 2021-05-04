@@ -40,7 +40,7 @@ reservada *System* da sentença, mantendo-a apenas na declaração do `using`.
 * **`CTRL` + `.`**, exibe a resolução propósta pela IDE para
 correção de erros na sintáxe do código e deixá-lo mais simples e elegante.
 
-* **`cw`** - ao digitarmos e teclarmos `TAB` a IDE irá escrever o código `Console.WriteLine();`
+* **`cw`** - ao digitarmos e teclarmos `TAB` 2x, a IDE irá escrever o código `Console.WriteLine();`
 
 #### **Console.Write** - [5:40]
 
