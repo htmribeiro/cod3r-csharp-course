@@ -49,7 +49,7 @@ namespace CursoCSharp.Fundamentos
             float precoComputador = 1299.99f;
             Console.WriteLine("Preço Computador " + precoComputador);
 
-            double valorDeMercadoDaApple = 1_000_000_000_000.00; // Mais usdado dos reais!
+            double valorDeMercadoDaApple = 1_000_000_000_000.00; // Mais usado dos reais!
             Console.WriteLine("Valor de mercado da Apple " + valorDeMercadoDaApple);
 
             decimal distanciaEntreEstrelas = decimal.MaxValue;
