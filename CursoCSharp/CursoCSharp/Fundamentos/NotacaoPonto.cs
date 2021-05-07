@@ -14,7 +14,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine("Teste".Length);
 
             string valorImportante = null;
-            Console.WriteLine(valorImportante.Length);
+            Console.WriteLine(valorImportante?.Length);
         }
     }
 }
