@@ -46,7 +46,7 @@ namespace CursoCSharp.Fundamentos
             ulong populacaoMundial = 7_600_000_000;
             Console.WriteLine("População Mundial " + populacaoMundial);
 
-            float precoComputador = 1299.99f;
+            float precoComputador = 1299.99F;
             Console.WriteLine("Preço Computador " + precoComputador);
 
             double valorDeMercadoDaApple = 1_000_000_000_000.00; // Mais usado dos reais!
