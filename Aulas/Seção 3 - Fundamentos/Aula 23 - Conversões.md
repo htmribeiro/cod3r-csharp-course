@@ -28,7 +28,7 @@
 armazenamento do tipo **double** ser maior que a do tipo **inteiro**
 o compilador não irá reclamar.
 
-## Convesão Explícita 
+## Convesão Explícita
 
 ### *Cast*
 
