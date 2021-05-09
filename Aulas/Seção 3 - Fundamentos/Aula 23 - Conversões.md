@@ -5,16 +5,17 @@
 
 ## Regras de conversão
 
-* Se na conversão houver possibilidade de perda de informação:
-  * Devemos **explicitar** que queremos converter um número em outro
+* Sempre que na conversão houver possibilidade de perda de informação:
+  * Devemos **explicitar** que queremos converter um tipo de número em outro
 
 ### Situações que podem haver perda de informação
 
 1. Transformar um **número real** com casas decimais para um **inteiro**
+
 2. **double** para **float** - onde o primeiro tem uma quantidade de armazenamento superior em relação ao segundo
 
-> **O compilador não olha para o valor da variável e sim para o tipo, no momento da conversão.
-> Caso não seja uma conversão explícita, não será permitida tal conversão.**
+> **O compilador não olha para o valor contido na variável e sim para o seu tipo, no momento da conversão.
+> A menos que façamos a conversão de forma explícita, o compilador irá barrar a conversão.**
 
 ## Conversão Implícita
 
@@ -38,16 +39,16 @@ o compilador não irá reclamar.
 
 > Obs.: Neste tipo de conversão o valor será truncado, ou seja, o decimal será **arrancado** fora.
 
-***Caso não seja explicitada a conversão,***
+* ***Caso a conversão não seja explicitada,***
 
->```cs
-> double nota = 9.7;
-> int notaTruncada = nota;
->```
+  >```cs
+  > double nota = 9.7;
+  > int notaTruncada = nota;
+  >```
 
-***resultará no seguinte Erro:***
-> *Não é possível converter implicitamente tipo "double" em "int".
-Existe uma conversão explícita (há uma conversão ausente?)*
+* ***resultará no seguinte Erro:***
+  > *Não é possível converter implicitamente tipo "double" em "int".
+  > Existe uma conversão explícita (há uma conversão ausente?)*
 
 ### *Parse()*
 
@@ -55,6 +56,9 @@ Existe uma conversão explícita (há uma conversão ausente?)*
 > string idadeString = Console.ReadLine();
 > int idadeInteiro = int.Parse(idadeString);
 >```
+
+* ***Observação.:***
+  > *Essa forma poderá gerar um erro para o programa, caso o que for digitado, não seja um número inteiro.*
 
 ### *Convert*
 
@@ -65,7 +69,8 @@ Existe uma conversão explícita (há uma conversão ausente?)*
 
 ### *TryParse()*
 
-* Forma segura de realizar a conversão de **string** para **int**
+* _Forma segura de realizar a conversão de **string** para **int**_
+  > *Mesmo que se digite um valor que não é inteiro, será convertido para zero, __como padrão__, não gerando assim, erro no programa.*
 
 >```cs
 > Console.Write("Digite o primeiro número: ");
