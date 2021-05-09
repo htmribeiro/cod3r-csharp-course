@@ -16,7 +16,7 @@ var totalComDesconto = total - (total * desconto);
 Console.WriteLine("O preço final é {0}", totalComDesconto);
 ```
 
-## Divisão e **`Math.Pow()`**
+## Divisão e Potência
 
 ```cs
 // IMC
@@ -26,7 +26,11 @@ double imc = peso / Math.Pow(altura, 2);
 Console.WriteLine($"IMC é {imc}.");
 ```
 
-## Módulo
+* **`Math.Pow()`**
+  * 1o. argumento, refere-se a ***base***
+  * 2o. argumento, refere-se ao ***expoente***
+
+## Operador Módulo
 
 ```cs
 // Número Par/Impar
