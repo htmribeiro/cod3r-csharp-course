@@ -24,7 +24,7 @@
     * Operando 2 - que será atribuído se a expressão for falsa
       * `: "Reprovado"`
 
-* **`?`** - Expressão **SE**
-* **`:`** - Expressão **SENÃO**
+  * **`?`** - Expressão **SE**
+  * **`:`** - Expressão **SENÃO**
 
-
+    * A atribução condicional, será feita conforme a sequências dos símbolos, por isso é muito importante posicionar as resposta corretamente.
