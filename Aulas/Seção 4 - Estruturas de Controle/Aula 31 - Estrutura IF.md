@@ -3,7 +3,7 @@
 * EstruturaIf.cs
 * `{"Estrutura If - Estruturas de Controle", EstruturaIf.Executar},`
 
-### Importando a nova estrutura no Program.cs
+> ***Importando a nova estrutura no Program.cs***
 
 * `using CursoCSharp.EstruturasDeControle;`
 
@@ -14,7 +14,7 @@
 
 * **`if(exp)`**
   * dentro dos parênteses terá uma expressão
-  * Essa *expressão* pode ter: 
+  * Essa *expressão* pode ter:
     * vários operandos
     * Essa expressão *sempre* irá retornar verdadeiro ou falso
 
@@ -81,7 +81,7 @@
 ### Advertência
 
 * Na estrutura de controle não utilizamos o **`;`**.
-  * Uma única excessão ocorrerá quando
+  * Uma única exceção ocorrerá quando
     * 
 
 * Estruturas de controle controlam a execução de uma ou mais sentenças
